@@ -1,0 +1,13 @@
+{
+  "updatedAt": "2026-02-16T01:59:00+09:00",
+  "cooldownHours": 24,
+  "lastHits": [],
+  "deprioritized": [
+    {"key":"EP2-63835","reason":"Rudeya 87,600 < Yahoo最安帯 103,350+ で逆ザヤ継続"},
+    {"key":"CFI-7100B01","reason":"Rudeya 107,900 < Yahoo最安帯 119,000+ で逆ザヤ継続"},
+    {"key":"CFI-2000A01","reason":"Rudeya 75,200 < Yahoo最安帯 81,680+ で逆ザヤ継続"},
+    {"key":"BEE-S-KB6PA","reason":"Rudeya 50,000 < Yahoo最安帯 56,866+ で逆ザヤ継続"},
+    {"key":"CFIJ-18001","reason":"Rudeya 29,100 と Yahoo 28,000〜35,800、利幅不足"}
+  ],
+  "highPriority": ["Nintendo Switch", "PlayStation", "Xbox"]
+}
