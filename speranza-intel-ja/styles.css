@@ -155,6 +155,11 @@ button { cursor: pointer; }
   --event-pos: center 46%;
   --bg-opacity: 0.30;
 }
+.card.event-matriarch.map-spaceport {
+  --event-bg: url('./assets/maps/matriarch-spaceport.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.30;
+}
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
   display: inline-block;
