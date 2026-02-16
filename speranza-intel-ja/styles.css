@@ -140,6 +140,11 @@ button { cursor: pointer; }
   --event-pos: center 46%;
   --bg-opacity: 0.30;
 }
+.card.event-night_raid.map-spaceport {
+  --event-bg: url('./assets/maps/night-raid-spaceport.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.30;
+}
 .card.event-locked_gate.map-blue_gate {
   --event-bg: url('./assets/maps/locked-gate-blue-gate.jpg');
   --event-pos: center 46%;
