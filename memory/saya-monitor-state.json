@@ -1,15 +1,45 @@
 {
-  "updatedAt": "2026-02-16T05:59:00+09:00",
+  "updatedAt": "2026-02-16T19:59:00+09:00",
   "cooldownHours": 24,
   "lastHits": [],
   "deprioritized": [
-    {"key":"EP2-63835","reason":"Rudeya 87,600 < Yahoo最安帯 103,350+ で逆ザヤ継続"},
-    {"key":"CFI-7100B01","reason":"Rudeya 107,900 < Yahoo最安帯 119,000+ で逆ザヤ継続"},
-    {"key":"CFI-2000A01","reason":"Rudeya 75,200 < Yahoo最安帯 81,680+ で逆ザヤ継続"},
-    {"key":"BEE-S-KB6PA","reason":"Rudeya 50,000 < Yahoo最安帯 56,866+ で逆ザヤ継続"},
-    {"key":"CFIJ-18001","reason":"Rudeya 29,100 と Yahoo 28,000〜35,800、利幅不足"},
-    {"key":"HEG-S-KABAA","reason":"Rudeya 41,000 < Yahoo最安帯 45,700〜47,400 で逆ザヤ継続"},
-    {"key":"HEG-S-KAAAA","reason":"Rudeya 39,500 < Yahoo最安帯 45,800〜46,800 で逆ザヤ継続"}
+    {
+      "key": "EP2-63835",
+      "reason": "Rudeya 87,600 < Yahoo最安帯 103,350+ で逆ザヤ継続"
+    },
+    {
+      "key": "CFI-7100B01",
+      "reason": "Rudeya 107,900 < Yahoo最安帯 119,000+ で逆ザヤ継続"
+    },
+    {
+      "key": "CFI-2000A01",
+      "reason": "Rudeya 75,200 < Yahoo最安帯 81,680+ で逆ザヤ継続"
+    },
+    {
+      "key": "BEE-S-KB6PA",
+      "reason": "Rudeya 50,000 < Yahoo最安帯 56,866+ で逆ザヤ継続"
+    },
+    {
+      "key": "CFIJ-18001",
+      "reason": "Rudeya 29,100 と Yahoo 28,000〜35,800、利幅不足"
+    },
+    {
+      "key": "HEG-S-KABAA",
+      "reason": "Rudeya 41,000 < Yahoo最安帯 45,700〜47,400 で逆ザヤ継続"
+    },
+    {
+      "key": "HEG-S-KAAAA",
+      "reason": "Rudeya 39,500 < Yahoo最安帯 45,800〜46,800 で逆ザヤ継続"
+    }
   ],
-  "highPriority": ["Nintendo Switch", "PlayStation", "Xbox"]
+  "highPriority": [
+    "Nintendo Switch",
+    "PlayStation",
+    "Xbox"
+  ],
+  "lastCheck": {
+    "time": "2026-02-16T19:59:00+09:00",
+    "result": "no-hit",
+    "notes": "Rudeya本体ドメイン解決不可。Yahoo新品はCFI-2000A01最安81,500円、CFIJ-18001最安33,613円で既知Rudeya価格比で利幅不足/逆ザヤ。クーポン取得不可。"
+  }
 }
