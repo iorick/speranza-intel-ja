@@ -18,6 +18,27 @@ function isoFromMs(ms) {
   return new Date(Number(ms)).toISOString();
 }
 
+function normalizeToCurrentCycle(startMsRaw, endMsRaw, nowMs) {
+  const dayMs = 24 * 60 * 60 * 1000;
+  const anchorStart = Number(startMsRaw);
+  const anchorEnd = Number(endMsRaw);
+  const duration = Math.max(1, anchorEnd - anchorStart);
+
+  let k = Math.floor((nowMs - anchorStart) / dayMs);
+  if (nowMs < anchorStart) k = 0;
+
+  let start = anchorStart + k * dayMs;
+  let end = start + duration;
+
+  // keep an active window if currently active; otherwise move to next window
+  if (nowMs >= end) {
+    start += dayMs;
+    end += dayMs;
+  }
+
+  return { start, end };
+}
+
 function extractAttr(block, name) {
   const re = new RegExp(`${name}="([^"]+)"`);
   const m = block.match(re);
@@ -47,27 +68,32 @@ async function main() {
   const seen = new Set();
   const events = [];
 
+  const nowMs = Date.now();
+
   for (const block of cardBlocks) {
     const idRaw = extractAttr(block, "data-id");
-    const startMs = extractAttr(block, "data-start-ms");
-    const endMs = extractAttr(block, "data-end-ms");
+    const startMsRaw = extractAttr(block, "data-start-ms");
+    const endMsRaw = extractAttr(block, "data-end-ms");
     const mapRaw = extractAttr(block, "data-map") || extractText(block, /<p[^>]*>([^<]+)<\/p>/i);
     const eventRaw = extractText(block, /<h4[^>]*>([^<]+)<\/h4>/i);
 
-    if (!idRaw || !startMs || !endMs || !mapRaw || !eventRaw) continue;
+    if (!idRaw || !startMsRaw || !endMsRaw || !mapRaw || !eventRaw) continue;
 
+    const { start, end } = normalizeToCurrentCycle(startMsRaw, endMsRaw, nowMs);
     const map = toKey(mapRaw);
     const eventType = toKey(eventRaw);
-    const key = [idRaw, startMs, endMs, map, eventType].join("|");
+
+    // dedupe by logical slot so repeated DOM rows collapse
+    const key = [eventType, map, start, end].join("|");
     if (seen.has(key)) continue;
     seen.add(key);
 
     events.push({
-      id: `speranza-${idRaw}-${startMs}`,
+      id: `speranza-${idRaw}-${start}`,
       eventType,
       map,
-      startAt: isoFromMs(startMs),
-      endAt: isoFromMs(endMs)
+      startAt: isoFromMs(start),
+      endAt: isoFromMs(end)
     });
   }
 
