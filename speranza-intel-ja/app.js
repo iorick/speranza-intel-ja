@@ -15,7 +15,9 @@ const EVENT_JA = {
   BIRD_CITY: "鳥の街",
   HUSK_GRAVEYARD: "残骸の墓場",
   HIDDEN_BUNKER: "隠しバンカー",
-  LOCKED_GATE: "鍵のかかった門"
+  LOCKED_GATE: "鍵のかかった門",
+  LAUNCH_TOWER_LOOT: "発射塔の物資",
+  PROSPECTING_PROBES: "探査プローブ"
 };
 
 const els = {
