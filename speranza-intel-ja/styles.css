@@ -145,6 +145,11 @@ button { cursor: pointer; }
   --event-pos: center 46%;
   --bg-opacity: 0.30;
 }
+.card.event-cold_snap.map-spaceport {
+  --event-bg: url('./assets/maps/cold-snap-spaceport.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.30;
+}
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
   display: inline-block;
