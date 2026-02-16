@@ -80,9 +80,10 @@ button { cursor: pointer; }
   content: "";
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.22;
+  background-image: var(--event-bg, none), var(--map-bg, none);
+  background-size: cover, cover;
+  background-position: var(--event-pos, center 50%), center;
+  opacity: var(--bg-opacity, 0.22);
   filter: saturate(0.9) contrast(0.9);
   pointer-events: none;
 }
@@ -105,35 +106,44 @@ button { cursor: pointer; }
   border: 1px solid rgba(120,255,160,.35);
 }
 
-/* map overlay images (semi-transparent) */
-.card.map-stella_montis::before { background-image: url('./assets/maps/stella-montis.svg'); }
-.card.map-spaceport::before { background-image: url('./assets/maps/spaceport.svg'); }
-.card.map-blue_gate::before { background-image: url('./assets/maps/blue-gate.svg'); }
-.card.map-buried_city::before { background-image: url('./assets/maps/buried-city.svg'); }
-.card.map-dam::before { background-image: url('./assets/maps/dam.svg'); }
+/* map fallback overlays (always available) */
+.card.map-stella_montis { --map-bg: url('./assets/maps/stella-montis.svg'); }
+.card.map-spaceport { --map-bg: url('./assets/maps/spaceport.svg'); }
+.card.map-blue_gate { --map-bg: url('./assets/maps/blue-gate.svg'); }
+.card.map-buried_city { --map-bg: url('./assets/maps/buried-city.svg'); }
+.card.map-dam { --map-bg: url('./assets/maps/dam.svg'); }
 
-/* special hero background: MATRIARCH on BLUE GATE */
-.card.event-matriarch.map-blue_gate::before {
-  background-image: url('./assets/maps/matriarch-blue-gate.png');
-  background-size: cover;
-  background-position: center 42%;
-  opacity: 0.28;
+/* event-level images (drop files with these names to activate) */
+.card.event-night_raid { --event-bg: url('./assets/maps/event-night_raid.jpg'); }
+.card.event-electromagnetic_storm { --event-bg: url('./assets/maps/event-electromagnetic_storm.jpg'); }
+.card.event-cold_snap { --event-bg: url('./assets/maps/event-cold_snap.jpg'); }
+.card.event-harvester { --event-bg: url('./assets/maps/event-harvester.jpg'); }
+.card.event-matriarch { --event-bg: url('./assets/maps/event-matriarch.jpg'); }
+.card.event-bird_city { --event-bg: url('./assets/maps/event-bird_city.jpg'); }
+.card.event-husk_graveyard { --event-bg: url('./assets/maps/event-husk_graveyard.jpg'); }
+.card.event-hidden_bunker { --event-bg: url('./assets/maps/event-hidden_bunker.jpg'); }
+.card.event-locked_gate { --event-bg: url('./assets/maps/event-locked_gate.jpg'); }
+
+/* combo overrides (higher priority for best-fit images) */
+.card.event-matriarch.map-blue_gate {
+  --event-bg: url('./assets/maps/matriarch-blue-gate.png');
+  --event-pos: center 46%;
+  --bg-opacity: 0.28;
 }
-
-/* special hero background: NIGHT RAID on DAM */
-.card.event-night_raid.map-dam::before {
-  background-image: url('./assets/maps/night-raid-dam.png');
-  background-size: cover;
-  background-position: center 42%;
-  opacity: 0.30;
+.card.event-night_raid.map-dam {
+  --event-bg: url('./assets/maps/night-raid-dam.png');
+  --event-pos: center 42%;
+  --bg-opacity: 0.30;
 }
-
-/* special hero background: LOCKED GATE on BLUE GATE */
-.card.event-locked_gate.map-blue_gate::before {
-  background-image: url('./assets/maps/locked-gate-blue-gate.jpg');
-  background-size: cover;
-  background-position: center 46%;
-  opacity: 0.28;
+.card.event-locked_gate.map-blue_gate {
+  --event-bg: url('./assets/maps/locked-gate-blue-gate.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.28;
+}
+.card.event-bird_city {
+  --event-bg: url('./assets/maps/bird-city.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.30;
 }
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
