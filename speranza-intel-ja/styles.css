@@ -81,8 +81,13 @@ button { cursor: pointer; }
   border-radius: 999px;
   margin-bottom: 8px;
 }
-.badge.active { background: rgba(67,211,124,.15); color: var(--ok); }
+.badge.active { background: rgba(120, 255, 160, .22); color: #8CFFB0; }
 .badge.upcoming { background: rgba(255,204,102,.16); color: var(--warn); }
+
+.card.activeCard {
+  background: linear-gradient(180deg, rgba(120,255,160,.14), rgba(120,255,160,.06));
+  border: 1px solid rgba(120,255,160,.35);
+}
 .meta { color: var(--muted); font-size: 13px; }
 .empty { color: var(--muted); padding: 8px; }
 .footer { color: var(--muted); }

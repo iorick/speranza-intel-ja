@@ -112,7 +112,7 @@ function render() {
 
   els.activeList.innerHTML = active.length ? active.map(e => {
     const end = new Date(e.endAt).getTime();
-    return `<article class="card">
+    return `<article class="card activeCard">
       <div class="badge active">開催中</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
       <div class="meta">終了まで: ${msToLabel(end - now)}</div>
