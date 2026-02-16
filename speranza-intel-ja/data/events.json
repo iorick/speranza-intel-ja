@@ -1,39 +1,23 @@
 {
+  "updatedAt": "2026-02-16T19:55:00+09:00",
   "events": [
-    {
-      "id": "evt-001",
-      "eventType": "NIGHT_RAID",
-      "map": "STELLA_MONTIS",
-      "startAt": "2026-02-16T19:00:00+09:00",
-      "endAt": "2026-02-16T19:30:00+09:00"
-    },
-    {
-      "id": "evt-002",
-      "eventType": "ELECTROMAGNETIC_STORM",
-      "map": "DAM",
-      "startAt": "2026-02-16T19:30:00+09:00",
-      "endAt": "2026-02-16T20:00:00+09:00"
-    },
-    {
-      "id": "evt-003",
-      "eventType": "COLD_SNAP",
-      "map": "SPACEPORT",
-      "startAt": "2026-02-16T20:00:00+09:00",
-      "endAt": "2026-02-16T20:30:00+09:00"
-    },
-    {
-      "id": "evt-004",
-      "eventType": "HARVESTER",
-      "map": "BLUE_GATE",
-      "startAt": "2026-02-16T20:30:00+09:00",
-      "endAt": "2026-02-16T21:00:00+09:00"
-    },
-    {
-      "id": "evt-005",
-      "eventType": "MATRIARCH",
-      "map": "BURIED_CITY",
-      "startAt": "2026-02-16T21:00:00+09:00",
-      "endAt": "2026-02-16T21:30:00+09:00"
-    }
+    {"id":"e001","eventType":"NIGHT_RAID","map":"STELLA_MONTIS","startAt":"2026-02-16T20:00:00+09:00","endAt":"2026-02-16T20:30:00+09:00"},
+    {"id":"e002","eventType":"ELECTROMAGNETIC_STORM","map":"DAM","startAt":"2026-02-16T20:00:00+09:00","endAt":"2026-02-16T20:30:00+09:00"},
+    {"id":"e003","eventType":"HARVESTER","map":"SPACEPORT","startAt":"2026-02-16T20:30:00+09:00","endAt":"2026-02-16T21:00:00+09:00"},
+    {"id":"e004","eventType":"COLD_SNAP","map":"BURIED_CITY","startAt":"2026-02-16T20:30:00+09:00","endAt":"2026-02-16T21:00:00+09:00"},
+    {"id":"e005","eventType":"MATRIARCH","map":"BLUE_GATE","startAt":"2026-02-16T21:00:00+09:00","endAt":"2026-02-16T21:30:00+09:00"},
+    {"id":"e006","eventType":"NIGHT_RAID","map":"DAM","startAt":"2026-02-16T21:00:00+09:00","endAt":"2026-02-16T21:30:00+09:00"},
+    {"id":"e007","eventType":"BIRD_CITY","map":"BURIED_CITY","startAt":"2026-02-16T21:30:00+09:00","endAt":"2026-02-16T22:00:00+09:00"},
+    {"id":"e008","eventType":"HIDDEN_BUNKER","map":"SPACEPORT","startAt":"2026-02-16T21:30:00+09:00","endAt":"2026-02-16T22:00:00+09:00"},
+    {"id":"e009","eventType":"LOCKED_GATE","map":"BLUE_GATE","startAt":"2026-02-16T22:00:00+09:00","endAt":"2026-02-16T22:30:00+09:00"},
+    {"id":"e010","eventType":"HUSK_GRAVEYARD","map":"BURIED_CITY","startAt":"2026-02-16T22:00:00+09:00","endAt":"2026-02-16T22:30:00+09:00"},
+    {"id":"e011","eventType":"NIGHT_RAID","map":"STELLA_MONTIS","startAt":"2026-02-16T22:30:00+09:00","endAt":"2026-02-16T23:00:00+09:00"},
+    {"id":"e012","eventType":"ELECTROMAGNETIC_STORM","map":"SPACEPORT","startAt":"2026-02-16T22:30:00+09:00","endAt":"2026-02-16T23:00:00+09:00"},
+    {"id":"e013","eventType":"HARVESTER","map":"DAM","startAt":"2026-02-16T23:00:00+09:00","endAt":"2026-02-16T23:30:00+09:00"},
+    {"id":"e014","eventType":"MATRIARCH","map":"SPACEPORT","startAt":"2026-02-16T23:00:00+09:00","endAt":"2026-02-16T23:30:00+09:00"},
+    {"id":"e015","eventType":"COLD_SNAP","map":"DAM","startAt":"2026-02-16T23:30:00+09:00","endAt":"2026-02-17T00:00:00+09:00"},
+    {"id":"e016","eventType":"BIRD_CITY","map":"BURIED_CITY","startAt":"2026-02-16T23:30:00+09:00","endAt":"2026-02-17T00:00:00+09:00"},
+    {"id":"e017","eventType":"NIGHT_RAID","map":"SPACEPORT","startAt":"2026-02-17T00:00:00+09:00","endAt":"2026-02-17T00:30:00+09:00"},
+    {"id":"e018","eventType":"NIGHT_RAID","map":"STELLA_MONTIS","startAt":"2026-02-17T00:30:00+09:00","endAt":"2026-02-17T01:00:00+09:00"}
   ]
 }

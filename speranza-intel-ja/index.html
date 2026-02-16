@@ -12,6 +12,8 @@
       <p>ARC Raiders マップイベント通知（JST）</p>
     </header>
 
+    <section class="highlights" id="highlights"></section>
+
     <section class="controls">
       <label>
         マップ
@@ -27,7 +29,13 @@
         </select>
       </label>
 
+      <label class="checkboxLabel">
+        <input type="checkbox" id="next24hOnly" />
+        24時間以内のみ
+      </label>
+
       <button id="refreshBtn">更新</button>
+      <button id="copyDiscordBtn">Discord通知文をコピー</button>
     </section>
 
     <main class="grid">
@@ -43,7 +51,12 @@
     </main>
 
     <footer class="footer">
-      <small>非公式ファンメイド / Inspired by <a href="https://speranzaintel.com/" target="_blank" rel="noopener">speranzaintel.com</a>。データは <code>data/events.json</code> を参照。</small>
+      <small>
+        非公式ファンメイド / Inspired by
+        <a href="https://speranzaintel.com/" target="_blank" rel="noopener">speranzaintel.com</a>
+        。データは <code>data/events.json</code> を参照。
+      </small>
+      <div id="updatedAt" class="updatedAt"></div>
     </footer>
 
     <script src="app.js"></script>
