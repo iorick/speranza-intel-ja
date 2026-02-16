@@ -150,6 +150,11 @@ button { cursor: pointer; }
   --event-pos: center 46%;
   --bg-opacity: 0.30;
 }
+.card.event-husk_graveyard.map-buried_city {
+  --event-bg: url('./assets/maps/event-husk_graveyard.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.34;
+}
 .card.event-cold_snap.map-spaceport {
   --event-bg: url('./assets/maps/cold-snap-spaceport.jpg');
   --event-pos: center 46%;
