@@ -150,6 +150,11 @@ button { cursor: pointer; }
   --event-pos: center 46%;
   --bg-opacity: 0.30;
 }
+.card.event-electromagnetic_storm.map-dam {
+  --event-bg: url('./assets/maps/electromagnetic-storm-dam.jpg');
+  --event-pos: center 46%;
+  --bg-opacity: 0.30;
+}
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
   display: inline-block;
