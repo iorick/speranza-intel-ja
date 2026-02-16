@@ -100,9 +100,11 @@ function render() {
         .join("")
     : `<div class="empty">直近の予定はありません。</div>`;
 
-  els.updatedAt.textContent = state.updatedAt
-    ? `最終更新: ${fmt.format(new Date(state.updatedAt))} JST`
-    : "";
+  if (els.updatedAt) {
+    els.updatedAt.textContent = state.updatedAt
+      ? `最終更新: ${fmt.format(new Date(state.updatedAt))} JST`
+      : "";
+  }
 }
 
 async function loadEvents() {
