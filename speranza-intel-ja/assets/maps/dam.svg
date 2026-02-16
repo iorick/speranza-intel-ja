@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 600'>
+  <rect width='1200' height='600' fill='#2a3a33'/>
+  <rect x='0' y='360' width='1200' height='240' fill='rgba(60,120,180,.28)'/>
+  <rect x='120' y='200' width='960' height='120' fill='rgba(255,255,255,.12)'/>
+  <line x1='120' y1='260' x2='1080' y2='260' stroke='rgba(0,0,0,.28)' stroke-width='8'/>
+</svg>

@@ -68,11 +68,27 @@ button { cursor: pointer; }
   padding: 12px;
 }
 .card {
+  position: relative;
+  overflow: hidden;
   background: var(--card);
   border: 1px solid #2b3550;
   border-radius: 12px;
   padding: 12px;
   margin-bottom: 10px;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.22;
+  filter: saturate(0.9) contrast(0.9);
+  pointer-events: none;
+}
+.card > * {
+  position: relative;
+  z-index: 1;
 }
 .badge {
   display: inline-block;
@@ -88,6 +104,13 @@ button { cursor: pointer; }
   background: linear-gradient(180deg, rgba(120,255,160,.14), rgba(120,255,160,.06));
   border: 1px solid rgba(120,255,160,.35);
 }
+
+/* map overlay images (semi-transparent) */
+.card.map-stella_montis::before { background-image: url('./assets/maps/stella-montis.svg'); }
+.card.map-spaceport::before { background-image: url('./assets/maps/spaceport.svg'); }
+.card.map-blue_gate::before { background-image: url('./assets/maps/blue-gate.svg'); }
+.card.map-buried_city::before { background-image: url('./assets/maps/buried-city.svg'); }
+.card.map-dam::before { background-image: url('./assets/maps/dam.svg'); }
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
   display: inline-block;
