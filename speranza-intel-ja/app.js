@@ -38,11 +38,15 @@ const fmt = new Intl.DateTimeFormat("ja-JP", {
 });
 
 function msToLabel(ms) {
-  if (ms <= 0) return "00:00";
-  const m = Math.floor(ms / 60000);
-  const h = Math.floor(m / 60);
-  const mm = m % 60;
-  return h > 0 ? `${h}時間${mm}分` : `${mm}分`;
+  if (ms <= 0) return "00:00:00";
+  const totalSec = Math.floor(ms / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  const hh = String(h).padStart(2, "0");
+  const mm = String(m).padStart(2, "0");
+  const ss = String(s).padStart(2, "0");
+  return `${hh}:${mm}:${ss}`;
 }
 
 function getNameMap(key){ return MAP_JA[key] || key; }
@@ -164,4 +168,4 @@ els.eventFilter.addEventListener("change", render);
 els.next24hOnly.addEventListener("change", render);
 
 loadEvents();
-setInterval(render, 30_000);
+setInterval(render, 1000);
