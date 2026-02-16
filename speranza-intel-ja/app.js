@@ -38,11 +38,13 @@ const fmt = new Intl.DateTimeFormat("ja-JP", {
 });
 
 function msToLabel(ms) {
-  if (ms <= 0) return "00:00:00";
+  if (ms <= 0) return "00:00";
   const totalSec = Math.floor(ms / 1000);
-  const h = String(Math.floor(totalSec / 3600)).padStart(2, "0");
+  const hours = Math.floor(totalSec / 3600);
   const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, "0");
   const s = String(totalSec % 60).padStart(2, "0");
+  if (hours === 0) return `${m}:${s}`;
+  const h = String(hours).padStart(2, "0");
   return `${h}:${m}:${s}`;
 }
 
@@ -91,7 +93,7 @@ function render() {
           return `<article class="card ${getMapClass(e.map)} ${getEventClass(e.eventType)}">
       <div class="badge upcoming">開催予定</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
-      <div class="meta">開始まで: <span class="countdown">${msToLabel(start - now)}</span></div>
+      <div class="meta">開始まで: <span class="countdown upcomingCountdown">${msToLabel(start - now)}</span></div>
       <div class="meta">開始: ${fmt.format(new Date(e.startAt))}</div>
     </article>`;
         })
