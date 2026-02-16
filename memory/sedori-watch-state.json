@@ -1,0 +1,14 @@
+{
+  "lastRunJst": "2026-02-17T07:59:00+09:00",
+  "cooldownHours": 24,
+  "notified": {},
+  "deferred": {
+    "onepiece-op13-box|aliexpress": {
+      "checkedAtJst": "2026-02-17T07:59:00+09:00",
+      "reason": "クーポン情報不明かつゲーム機カテゴリ外のため保留",
+      "rudeyaPrice": 13800,
+      "buyPrice": 4860,
+      "estimatedProfit": 8940
+    }
+  }
+}
