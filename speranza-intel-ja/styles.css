@@ -14,7 +14,7 @@ body {
   background: var(--bg);
   color: var(--text);
 }
-.header, .controls, .footer, .highlights {
+.header, .footer {
   max-width: 1100px;
   margin: 0 auto;
   padding: 16px;
