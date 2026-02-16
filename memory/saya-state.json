@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-02-16T21:59:00+09:00",
+  "cooldownHours": 24,
+  "lastAlerts": {
+    "PlayStation 5 Slim CFI-2000A01": "2026-02-16T21:59:00+09:00",
+    "Xbox Series X 1TB EP2-63835": "2026-02-16T21:59:00+09:00"
+  },
+  "deprioritized": [
+    {
+      "name": "PlayStation 5 Slim CFI-2000A01",
+      "reason": "Yahoo新品最安81,500円以上で、ルデヤ75,200円を下回らず不採算継続"
+    }
+  ],
+  "priority": {
+    "game_console": "high"
+  },
+  "notes": "Xクーポン監視シードはx.com側制限で取得不能（公開ページ読取失敗）。"
+}
