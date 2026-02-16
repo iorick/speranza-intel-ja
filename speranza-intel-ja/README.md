@@ -1,4 +1,4 @@
-# Speranza Intel 日本語版（非公式）
+# Raiders Event Navi JP（非公式）
 
 ARC Raiders のマップイベント通知サイトを日本語で見やすくした簡易版です。
 
@@ -40,3 +40,6 @@ python3 -m http.server 8080
 ## 補足
 
 本家サイトの完全コピーではなく、日本語運用向けに最小機能へ再構成した v1 です。
+
+- Inspired by: https://speranzaintel.com/
+- This project is an unofficial fan-made tool.
