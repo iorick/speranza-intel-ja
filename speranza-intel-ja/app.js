@@ -52,6 +52,7 @@ function msToLabel(ms) {
 function getNameMap(key){ return MAP_JA[key] || key; }
 function getNameEvent(key){ return EVENT_JA[key] || key; }
 function getMapClass(key){ return `map-${String(key || '').toLowerCase()}`; }
+function getEventClass(key){ return `event-${String(key || '').toLowerCase()}`; }
 
 function buildFilters(events) {
   const maps = [...new Set(events.map(e => e.map))];
@@ -113,7 +114,7 @@ function render() {
 
   els.activeList.innerHTML = active.length ? active.map(e => {
     const end = new Date(e.endAt).getTime();
-    return `<article class="card activeCard ${getMapClass(e.map)}">
+    return `<article class="card activeCard ${getMapClass(e.map)} ${getEventClass(e.eventType)}">
       <div class="badge active">開催中</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
       <div class="meta">終了まで: <span class="countdown">${msToLabel(end - now)}</span></div>
@@ -123,7 +124,7 @@ function render() {
 
   els.upcomingList.innerHTML = upcoming.length ? upcoming.map(e => {
     const start = new Date(e.startAt).getTime();
-    return `<article class="card ${getMapClass(e.map)}">
+    return `<article class="card ${getMapClass(e.map)} ${getEventClass(e.eventType)}">
       <div class="badge upcoming">開催予定</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
       <div class="meta">開始まで: <span class="countdown">${msToLabel(start - now)}</span></div>

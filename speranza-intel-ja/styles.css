@@ -111,6 +111,30 @@ button { cursor: pointer; }
 .card.map-blue_gate::before { background-image: url('./assets/maps/blue-gate.svg'); }
 .card.map-buried_city::before { background-image: url('./assets/maps/buried-city.svg'); }
 .card.map-dam::before { background-image: url('./assets/maps/dam.svg'); }
+
+/* special hero background: MATRIARCH on BLUE GATE */
+.card.event-matriarch.map-blue_gate::before {
+  background-image: url('./assets/maps/matriarch-blue-gate.png');
+  background-size: cover;
+  background-position: center 42%;
+  opacity: 0.28;
+}
+
+/* special hero background: NIGHT RAID on DAM */
+.card.event-night_raid.map-dam::before {
+  background-image: url('./assets/maps/night-raid-dam.png');
+  background-size: cover;
+  background-position: center 42%;
+  opacity: 0.30;
+}
+
+/* special hero background: LOCKED GATE on BLUE GATE */
+.card.event-locked_gate.map-blue_gate::before {
+  background-image: url('./assets/maps/locked-gate-blue-gate.jpg');
+  background-size: cover;
+  background-position: center 46%;
+  opacity: 0.28;
+}
 .meta { color: var(--muted); font-size: 13px; }
 .countdown {
   display: inline-block;
