@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speranza Intel 日本語版</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>🛰️ Speranza Intel 日本語版</h1>
+      <p>ARC Raiders マップイベント通知（JST）</p>
+    </header>
+
+    <section class="controls">
+      <label>
+        マップ
+        <select id="mapFilter">
+          <option value="ALL">すべて</option>
+        </select>
+      </label>
+
+      <label>
+        イベント
+        <select id="eventFilter">
+          <option value="ALL">すべて</option>
+        </select>
+      </label>
+
+      <button id="refreshBtn">更新</button>
+    </section>
+
+    <main class="grid">
+      <section>
+        <h2>開催中</h2>
+        <div id="activeList" class="list"></div>
+      </section>
+
+      <section>
+        <h2>開催予定</h2>
+        <div id="upcomingList" class="list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>非公式ファンメイド。データは <code>data/events.json</code> を参照。</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
