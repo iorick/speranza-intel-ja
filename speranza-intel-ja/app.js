@@ -115,7 +115,7 @@ function render() {
     return `<article class="card activeCard">
       <div class="badge active">開催中</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
-      <div class="meta">終了まで: ${msToLabel(end - now)}</div>
+      <div class="meta">終了まで: <span class="countdown">${msToLabel(end - now)}</span></div>
       <div class="meta">終了: ${fmt.format(new Date(e.endAt))}</div>
     </article>`;
   }).join("") : `<div class="empty">現在開催中のイベントはありません。</div>`;
@@ -125,7 +125,7 @@ function render() {
     return `<article class="card">
       <div class="badge upcoming">開催予定</div>
       <h3>${getNameEvent(e.eventType)} / ${getNameMap(e.map)}</h3>
-      <div class="meta">開始まで: ${msToLabel(start - now)}</div>
+      <div class="meta">開始まで: <span class="countdown">${msToLabel(start - now)}</span></div>
       <div class="meta">開始: ${fmt.format(new Date(e.startAt))}</div>
     </article>`;
   }).join("") : `<div class="empty">直近の予定はありません。</div>`;

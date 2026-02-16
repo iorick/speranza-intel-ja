@@ -89,6 +89,15 @@ button { cursor: pointer; }
   border: 1px solid rgba(120,255,160,.35);
 }
 .meta { color: var(--muted); font-size: 13px; }
+.countdown {
+  display: inline-block;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #8CFFB0;
+  margin-left: 6px;
+}
 .empty { color: var(--muted); padding: 8px; }
 .footer { color: var(--muted); }
 .updatedAt { margin-top: 8px; font-size: 12px; }
