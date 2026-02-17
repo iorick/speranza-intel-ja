@@ -1,546 +1,546 @@
 {
-  "updatedAt": "2026-02-16T13:28:33.795Z",
+  "updatedAt": "2026-02-17T13:34:32.182Z",
   "source": "https://speranzaintel.com/",
   "count": 77,
   "events": [
     {
-      "id": "speranza-121-1771246800000",
+      "id": "speranza-121-1771333200000",
       "eventType": "LOCKED_GATE",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T13:00:00.000Z",
-      "endAt": "2026-02-16T14:00:00.000Z"
+      "startAt": "2026-02-17T13:00:00.000Z",
+      "endAt": "2026-02-17T14:00:00.000Z"
     },
     {
-      "id": "speranza-122-1771246800000",
+      "id": "speranza-122-1771333200000",
       "eventType": "HARVESTER",
       "map": "DAM",
-      "startAt": "2026-02-16T13:00:00.000Z",
-      "endAt": "2026-02-16T14:00:00.000Z"
+      "startAt": "2026-02-17T13:00:00.000Z",
+      "endAt": "2026-02-17T14:00:00.000Z"
     },
     {
-      "id": "speranza-123-1771246800000",
+      "id": "speranza-123-1771333200000",
       "eventType": "LAUNCH_TOWER_LOOT",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T13:00:00.000Z",
-      "endAt": "2026-02-16T14:00:00.000Z"
+      "startAt": "2026-02-17T13:00:00.000Z",
+      "endAt": "2026-02-17T14:00:00.000Z"
     },
     {
-      "id": "speranza-124-1771246800000",
+      "id": "speranza-124-1771333200000",
       "eventType": "COLD_SNAP",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T13:00:00.000Z",
-      "endAt": "2026-02-16T14:00:00.000Z"
+      "startAt": "2026-02-17T13:00:00.000Z",
+      "endAt": "2026-02-17T14:00:00.000Z"
     },
     {
-      "id": "speranza-125-1771250400000",
+      "id": "speranza-125-1771336800000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T14:00:00.000Z",
-      "endAt": "2026-02-16T15:00:00.000Z"
+      "startAt": "2026-02-17T14:00:00.000Z",
+      "endAt": "2026-02-17T15:00:00.000Z"
     },
     {
-      "id": "speranza-126-1771250400000",
+      "id": "speranza-126-1771336800000",
       "eventType": "MATRIARCH",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T14:00:00.000Z",
-      "endAt": "2026-02-16T15:00:00.000Z"
+      "startAt": "2026-02-17T14:00:00.000Z",
+      "endAt": "2026-02-17T15:00:00.000Z"
     },
     {
-      "id": "speranza-127-1771250400000",
+      "id": "speranza-127-1771336800000",
       "eventType": "COLD_SNAP",
       "map": "DAM",
-      "startAt": "2026-02-16T14:00:00.000Z",
-      "endAt": "2026-02-16T15:00:00.000Z"
+      "startAt": "2026-02-17T14:00:00.000Z",
+      "endAt": "2026-02-17T15:00:00.000Z"
     },
     {
-      "id": "speranza-128-1771250400000",
+      "id": "speranza-128-1771336800000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-16T14:00:00.000Z",
-      "endAt": "2026-02-16T15:00:00.000Z"
+      "startAt": "2026-02-17T14:00:00.000Z",
+      "endAt": "2026-02-17T15:00:00.000Z"
     },
     {
-      "id": "speranza-129-1771254000000",
+      "id": "speranza-129-1771340400000",
       "eventType": "NIGHT_RAID",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T15:00:00.000Z",
-      "endAt": "2026-02-16T16:00:00.000Z"
+      "startAt": "2026-02-17T15:00:00.000Z",
+      "endAt": "2026-02-17T16:00:00.000Z"
     },
     {
-      "id": "speranza-130-1771254000000",
+      "id": "speranza-130-1771340400000",
       "eventType": "PROSPECTING_PROBES",
       "map": "DAM",
-      "startAt": "2026-02-16T15:00:00.000Z",
-      "endAt": "2026-02-16T16:00:00.000Z"
+      "startAt": "2026-02-17T15:00:00.000Z",
+      "endAt": "2026-02-17T16:00:00.000Z"
     },
     {
-      "id": "speranza-131-1771254000000",
+      "id": "speranza-131-1771340400000",
       "eventType": "MATRIARCH",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T15:00:00.000Z",
-      "endAt": "2026-02-16T16:00:00.000Z"
+      "startAt": "2026-02-17T15:00:00.000Z",
+      "endAt": "2026-02-17T16:00:00.000Z"
     },
     {
-      "id": "speranza-132-1771257600000",
+      "id": "speranza-132-1771344000000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T16:00:00.000Z",
-      "endAt": "2026-02-16T17:00:00.000Z"
+      "startAt": "2026-02-17T16:00:00.000Z",
+      "endAt": "2026-02-17T17:00:00.000Z"
     },
     {
-      "id": "speranza-133-1771257600000",
+      "id": "speranza-133-1771344000000",
       "eventType": "MATRIARCH",
       "map": "DAM",
-      "startAt": "2026-02-16T16:00:00.000Z",
-      "endAt": "2026-02-16T17:00:00.000Z"
+      "startAt": "2026-02-17T16:00:00.000Z",
+      "endAt": "2026-02-17T17:00:00.000Z"
     },
     {
-      "id": "speranza-134-1771257600000",
+      "id": "speranza-134-1771344000000",
       "eventType": "NIGHT_RAID",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T16:00:00.000Z",
-      "endAt": "2026-02-16T17:00:00.000Z"
+      "startAt": "2026-02-17T16:00:00.000Z",
+      "endAt": "2026-02-17T17:00:00.000Z"
     },
     {
-      "id": "speranza-33-1771261200000",
+      "id": "speranza-33-1771347600000",
       "eventType": "HARVESTER",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T17:00:00.000Z",
-      "endAt": "2026-02-16T18:00:00.000Z"
+      "startAt": "2026-02-17T17:00:00.000Z",
+      "endAt": "2026-02-17T18:00:00.000Z"
     },
     {
-      "id": "speranza-34-1771261200000",
+      "id": "speranza-34-1771347600000",
       "eventType": "NIGHT_RAID",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T17:00:00.000Z",
-      "endAt": "2026-02-16T18:00:00.000Z"
+      "startAt": "2026-02-17T17:00:00.000Z",
+      "endAt": "2026-02-17T18:00:00.000Z"
     },
     {
-      "id": "speranza-35-1771264800000",
+      "id": "speranza-35-1771351200000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-16T18:00:00.000Z",
-      "endAt": "2026-02-16T19:00:00.000Z"
+      "startAt": "2026-02-17T18:00:00.000Z",
+      "endAt": "2026-02-17T19:00:00.000Z"
     },
     {
-      "id": "speranza-36-1771264800000",
+      "id": "speranza-36-1771351200000",
       "eventType": "HARVESTER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T18:00:00.000Z",
-      "endAt": "2026-02-16T19:00:00.000Z"
+      "startAt": "2026-02-17T18:00:00.000Z",
+      "endAt": "2026-02-17T19:00:00.000Z"
     },
     {
-      "id": "speranza-37-1771264800000",
+      "id": "speranza-37-1771351200000",
       "eventType": "NIGHT_RAID",
       "map": "DAM",
-      "startAt": "2026-02-16T18:00:00.000Z",
-      "endAt": "2026-02-16T19:00:00.000Z"
+      "startAt": "2026-02-17T18:00:00.000Z",
+      "endAt": "2026-02-17T19:00:00.000Z"
     },
     {
-      "id": "speranza-38-1771264800000",
+      "id": "speranza-38-1771351200000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T18:00:00.000Z",
-      "endAt": "2026-02-16T19:00:00.000Z"
+      "startAt": "2026-02-17T18:00:00.000Z",
+      "endAt": "2026-02-17T19:00:00.000Z"
     },
     {
-      "id": "speranza-39-1771268400000",
+      "id": "speranza-39-1771354800000",
       "eventType": "HARVESTER",
       "map": "DAM",
-      "startAt": "2026-02-16T19:00:00.000Z",
-      "endAt": "2026-02-16T20:00:00.000Z"
+      "startAt": "2026-02-17T19:00:00.000Z",
+      "endAt": "2026-02-17T20:00:00.000Z"
     },
     {
-      "id": "speranza-40-1771268400000",
+      "id": "speranza-40-1771354800000",
       "eventType": "COLD_SNAP",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T19:00:00.000Z",
-      "endAt": "2026-02-16T20:00:00.000Z"
+      "startAt": "2026-02-17T19:00:00.000Z",
+      "endAt": "2026-02-17T20:00:00.000Z"
     },
     {
-      "id": "speranza-41-1771268400000",
+      "id": "speranza-41-1771354800000",
       "eventType": "PROSPECTING_PROBES",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T19:00:00.000Z",
-      "endAt": "2026-02-16T20:00:00.000Z"
+      "startAt": "2026-02-17T19:00:00.000Z",
+      "endAt": "2026-02-17T20:00:00.000Z"
     },
     {
-      "id": "speranza-42-1771272000000",
+      "id": "speranza-42-1771358400000",
       "eventType": "HIDDEN_BUNKER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T20:00:00.000Z",
-      "endAt": "2026-02-16T21:00:00.000Z"
+      "startAt": "2026-02-17T20:00:00.000Z",
+      "endAt": "2026-02-17T21:00:00.000Z"
     },
     {
-      "id": "speranza-43-1771272000000",
+      "id": "speranza-43-1771358400000",
       "eventType": "HUSK_GRAVEYARD",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T20:00:00.000Z",
-      "endAt": "2026-02-16T21:00:00.000Z"
+      "startAt": "2026-02-17T20:00:00.000Z",
+      "endAt": "2026-02-17T21:00:00.000Z"
     },
     {
-      "id": "speranza-44-1771272000000",
+      "id": "speranza-44-1771358400000",
       "eventType": "MATRIARCH",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T20:00:00.000Z",
-      "endAt": "2026-02-16T21:00:00.000Z"
+      "startAt": "2026-02-17T20:00:00.000Z",
+      "endAt": "2026-02-17T21:00:00.000Z"
     },
     {
-      "id": "speranza-45-1771275600000",
+      "id": "speranza-45-1771362000000",
       "eventType": "HUSK_GRAVEYARD",
       "map": "DAM",
-      "startAt": "2026-02-16T21:00:00.000Z",
-      "endAt": "2026-02-16T22:00:00.000Z"
+      "startAt": "2026-02-17T21:00:00.000Z",
+      "endAt": "2026-02-17T22:00:00.000Z"
     },
     {
-      "id": "speranza-46-1771275600000",
+      "id": "speranza-46-1771362000000",
       "eventType": "MATRIARCH",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T21:00:00.000Z",
-      "endAt": "2026-02-16T22:00:00.000Z"
+      "startAt": "2026-02-17T21:00:00.000Z",
+      "endAt": "2026-02-17T22:00:00.000Z"
     },
     {
-      "id": "speranza-47-1771275600000",
+      "id": "speranza-47-1771362000000",
       "eventType": "COLD_SNAP",
       "map": "SPACEPORT",
-      "startAt": "2026-02-16T21:00:00.000Z",
-      "endAt": "2026-02-16T22:00:00.000Z"
+      "startAt": "2026-02-17T21:00:00.000Z",
+      "endAt": "2026-02-17T22:00:00.000Z"
     },
     {
-      "id": "speranza-48-1771275600000",
+      "id": "speranza-48-1771362000000",
       "eventType": "LOCKED_GATE",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T21:00:00.000Z",
-      "endAt": "2026-02-16T22:00:00.000Z"
+      "startAt": "2026-02-17T21:00:00.000Z",
+      "endAt": "2026-02-17T22:00:00.000Z"
     },
     {
-      "id": "speranza-49-1771279200000",
+      "id": "speranza-49-1771365600000",
       "eventType": "ELECTROMAGNETIC_STORM",
       "map": "DAM",
-      "startAt": "2026-02-16T22:00:00.000Z",
-      "endAt": "2026-02-16T23:00:00.000Z"
+      "startAt": "2026-02-17T22:00:00.000Z",
+      "endAt": "2026-02-17T23:00:00.000Z"
     },
     {
-      "id": "speranza-50-1771279200000",
+      "id": "speranza-50-1771365600000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-16T22:00:00.000Z",
-      "endAt": "2026-02-16T23:00:00.000Z"
+      "startAt": "2026-02-17T22:00:00.000Z",
+      "endAt": "2026-02-17T23:00:00.000Z"
     },
     {
-      "id": "speranza-51-1771279200000",
+      "id": "speranza-51-1771365600000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T22:00:00.000Z",
-      "endAt": "2026-02-16T23:00:00.000Z"
+      "startAt": "2026-02-17T22:00:00.000Z",
+      "endAt": "2026-02-17T23:00:00.000Z"
     },
     {
-      "id": "speranza-52-1771279200000",
+      "id": "speranza-52-1771365600000",
       "eventType": "MATRIARCH",
       "map": "DAM",
-      "startAt": "2026-02-16T22:00:00.000Z",
-      "endAt": "2026-02-16T23:00:00.000Z"
+      "startAt": "2026-02-17T22:00:00.000Z",
+      "endAt": "2026-02-17T23:00:00.000Z"
     },
     {
-      "id": "speranza-1-1771282800000",
+      "id": "speranza-1-1771369200000",
       "eventType": "NIGHT_RAID",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-16T23:00:00.000Z",
-      "endAt": "2026-02-17T00:00:00.000Z"
+      "startAt": "2026-02-17T23:00:00.000Z",
+      "endAt": "2026-02-18T00:00:00.000Z"
     },
     {
-      "id": "speranza-2-1771282800000",
+      "id": "speranza-2-1771369200000",
       "eventType": "HARVESTER",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-16T23:00:00.000Z",
-      "endAt": "2026-02-17T00:00:00.000Z"
+      "startAt": "2026-02-17T23:00:00.000Z",
+      "endAt": "2026-02-18T00:00:00.000Z"
     },
     {
-      "id": "speranza-3-1771286400000",
+      "id": "speranza-3-1771372800000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T00:00:00.000Z",
-      "endAt": "2026-02-17T01:00:00.000Z"
+      "startAt": "2026-02-18T00:00:00.000Z",
+      "endAt": "2026-02-18T01:00:00.000Z"
     },
     {
-      "id": "speranza-4-1771286400000",
+      "id": "speranza-4-1771372800000",
       "eventType": "HARVESTER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T00:00:00.000Z",
-      "endAt": "2026-02-17T01:00:00.000Z"
+      "startAt": "2026-02-18T00:00:00.000Z",
+      "endAt": "2026-02-18T01:00:00.000Z"
     },
     {
-      "id": "speranza-5-1771286400000",
+      "id": "speranza-5-1771372800000",
       "eventType": "NIGHT_RAID",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T00:00:00.000Z",
-      "endAt": "2026-02-17T01:00:00.000Z"
+      "startAt": "2026-02-18T00:00:00.000Z",
+      "endAt": "2026-02-18T01:00:00.000Z"
     },
     {
-      "id": "speranza-6-1771290000000",
+      "id": "speranza-6-1771376400000",
       "eventType": "HARVESTER",
       "map": "DAM",
-      "startAt": "2026-02-17T01:00:00.000Z",
-      "endAt": "2026-02-17T02:00:00.000Z"
+      "startAt": "2026-02-18T01:00:00.000Z",
+      "endAt": "2026-02-18T02:00:00.000Z"
     },
     {
-      "id": "speranza-7-1771290000000",
+      "id": "speranza-7-1771376400000",
       "eventType": "NIGHT_RAID",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T01:00:00.000Z",
-      "endAt": "2026-02-17T02:00:00.000Z"
+      "startAt": "2026-02-18T01:00:00.000Z",
+      "endAt": "2026-02-18T02:00:00.000Z"
     },
     {
-      "id": "speranza-8-1771290000000",
+      "id": "speranza-8-1771376400000",
       "eventType": "LAUNCH_TOWER_LOOT",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T01:00:00.000Z",
-      "endAt": "2026-02-17T02:00:00.000Z"
+      "startAt": "2026-02-18T01:00:00.000Z",
+      "endAt": "2026-02-18T02:00:00.000Z"
     },
     {
-      "id": "speranza-9-1771293600000",
+      "id": "speranza-9-1771380000000",
       "eventType": "COLD_SNAP",
       "map": "DAM",
-      "startAt": "2026-02-17T02:00:00.000Z",
-      "endAt": "2026-02-17T03:00:00.000Z"
+      "startAt": "2026-02-18T02:00:00.000Z",
+      "endAt": "2026-02-18T03:00:00.000Z"
     },
     {
-      "id": "speranza-10-1771293600000",
+      "id": "speranza-10-1771380000000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-17T02:00:00.000Z",
-      "endAt": "2026-02-17T03:00:00.000Z"
+      "startAt": "2026-02-18T02:00:00.000Z",
+      "endAt": "2026-02-18T03:00:00.000Z"
     },
     {
-      "id": "speranza-11-1771293600000",
+      "id": "speranza-11-1771380000000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T02:00:00.000Z",
-      "endAt": "2026-02-17T03:00:00.000Z"
+      "startAt": "2026-02-18T02:00:00.000Z",
+      "endAt": "2026-02-18T03:00:00.000Z"
     },
     {
-      "id": "speranza-12-1771293600000",
+      "id": "speranza-12-1771380000000",
       "eventType": "MATRIARCH",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T02:00:00.000Z",
-      "endAt": "2026-02-17T03:00:00.000Z"
+      "startAt": "2026-02-18T02:00:00.000Z",
+      "endAt": "2026-02-18T03:00:00.000Z"
     },
     {
-      "id": "speranza-13-1771297200000",
+      "id": "speranza-13-1771383600000",
       "eventType": "MATRIARCH",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T03:00:00.000Z",
-      "endAt": "2026-02-17T04:00:00.000Z"
+      "startAt": "2026-02-18T03:00:00.000Z",
+      "endAt": "2026-02-18T04:00:00.000Z"
     },
     {
-      "id": "speranza-14-1771297200000",
+      "id": "speranza-14-1771383600000",
       "eventType": "COLD_SNAP",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T03:00:00.000Z",
-      "endAt": "2026-02-17T04:00:00.000Z"
+      "startAt": "2026-02-18T03:00:00.000Z",
+      "endAt": "2026-02-18T04:00:00.000Z"
     },
     {
-      "id": "speranza-89-1771297200000",
+      "id": "speranza-89-1771383600000",
       "eventType": "PROSPECTING_PROBES",
       "map": "DAM",
-      "startAt": "2026-02-17T03:00:00.000Z",
-      "endAt": "2026-02-17T04:00:00.000Z"
+      "startAt": "2026-02-18T03:00:00.000Z",
+      "endAt": "2026-02-18T04:00:00.000Z"
     },
     {
-      "id": "speranza-90-1771300800000",
+      "id": "speranza-90-1771387200000",
       "eventType": "HUSK_GRAVEYARD",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T04:00:00.000Z",
-      "endAt": "2026-02-17T05:00:00.000Z"
+      "startAt": "2026-02-18T04:00:00.000Z",
+      "endAt": "2026-02-18T05:00:00.000Z"
     },
     {
-      "id": "speranza-91-1771300800000",
+      "id": "speranza-91-1771387200000",
       "eventType": "MATRIARCH",
       "map": "DAM",
-      "startAt": "2026-02-17T04:00:00.000Z",
-      "endAt": "2026-02-17T05:00:00.000Z"
+      "startAt": "2026-02-18T04:00:00.000Z",
+      "endAt": "2026-02-18T05:00:00.000Z"
     },
     {
-      "id": "speranza-92-1771300800000",
+      "id": "speranza-92-1771387200000",
       "eventType": "HIDDEN_BUNKER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T04:00:00.000Z",
-      "endAt": "2026-02-17T05:00:00.000Z"
+      "startAt": "2026-02-18T04:00:00.000Z",
+      "endAt": "2026-02-18T05:00:00.000Z"
     },
     {
-      "id": "speranza-93-1771304400000",
+      "id": "speranza-93-1771390800000",
       "eventType": "HARVESTER",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T05:00:00.000Z",
-      "endAt": "2026-02-17T06:00:00.000Z"
+      "startAt": "2026-02-18T05:00:00.000Z",
+      "endAt": "2026-02-18T06:00:00.000Z"
     },
     {
-      "id": "speranza-94-1771304400000",
+      "id": "speranza-94-1771390800000",
       "eventType": "LOCKED_GATE",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T05:00:00.000Z",
-      "endAt": "2026-02-17T06:00:00.000Z"
+      "startAt": "2026-02-18T05:00:00.000Z",
+      "endAt": "2026-02-18T06:00:00.000Z"
     },
     {
-      "id": "speranza-95-1771304400000",
+      "id": "speranza-95-1771390800000",
       "eventType": "COLD_SNAP",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T05:00:00.000Z",
-      "endAt": "2026-02-17T06:00:00.000Z"
+      "startAt": "2026-02-18T05:00:00.000Z",
+      "endAt": "2026-02-18T06:00:00.000Z"
     },
     {
-      "id": "speranza-97-1771308000000",
+      "id": "speranza-97-1771394400000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T06:00:00.000Z",
-      "endAt": "2026-02-17T07:00:00.000Z"
+      "startAt": "2026-02-18T06:00:00.000Z",
+      "endAt": "2026-02-18T07:00:00.000Z"
     },
     {
-      "id": "speranza-98-1771308000000",
+      "id": "speranza-98-1771394400000",
       "eventType": "ELECTROMAGNETIC_STORM",
       "map": "DAM",
-      "startAt": "2026-02-17T06:00:00.000Z",
-      "endAt": "2026-02-17T07:00:00.000Z"
+      "startAt": "2026-02-18T06:00:00.000Z",
+      "endAt": "2026-02-18T07:00:00.000Z"
     },
     {
-      "id": "speranza-99-1771308000000",
+      "id": "speranza-99-1771394400000",
       "eventType": "HARVESTER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T06:00:00.000Z",
-      "endAt": "2026-02-17T07:00:00.000Z"
+      "startAt": "2026-02-18T06:00:00.000Z",
+      "endAt": "2026-02-18T07:00:00.000Z"
     },
     {
-      "id": "speranza-100-1771308000000",
+      "id": "speranza-100-1771394400000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-17T06:00:00.000Z",
-      "endAt": "2026-02-17T07:00:00.000Z"
+      "startAt": "2026-02-18T06:00:00.000Z",
+      "endAt": "2026-02-18T07:00:00.000Z"
     },
     {
-      "id": "speranza-101-1771311600000",
+      "id": "speranza-101-1771398000000",
       "eventType": "NIGHT_RAID",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T07:00:00.000Z",
-      "endAt": "2026-02-17T08:00:00.000Z"
+      "startAt": "2026-02-18T07:00:00.000Z",
+      "endAt": "2026-02-18T08:00:00.000Z"
     },
     {
-      "id": "speranza-102-1771311600000",
+      "id": "speranza-102-1771398000000",
       "eventType": "HUSK_GRAVEYARD",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T07:00:00.000Z",
-      "endAt": "2026-02-17T08:00:00.000Z"
+      "startAt": "2026-02-18T07:00:00.000Z",
+      "endAt": "2026-02-18T08:00:00.000Z"
     },
     {
-      "id": "speranza-103-1771311600000",
+      "id": "speranza-103-1771398000000",
       "eventType": "HARVESTER",
       "map": "DAM",
-      "startAt": "2026-02-17T07:00:00.000Z",
-      "endAt": "2026-02-17T08:00:00.000Z"
+      "startAt": "2026-02-18T07:00:00.000Z",
+      "endAt": "2026-02-18T08:00:00.000Z"
     },
     {
-      "id": "speranza-106-1771315200000",
+      "id": "speranza-106-1771401600000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T08:00:00.000Z",
-      "endAt": "2026-02-17T09:00:00.000Z"
+      "startAt": "2026-02-18T08:00:00.000Z",
+      "endAt": "2026-02-18T09:00:00.000Z"
     },
     {
-      "id": "speranza-107-1771315200000",
+      "id": "speranza-107-1771401600000",
       "eventType": "MATRIARCH",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T08:00:00.000Z",
-      "endAt": "2026-02-17T09:00:00.000Z"
+      "startAt": "2026-02-18T08:00:00.000Z",
+      "endAt": "2026-02-18T09:00:00.000Z"
     },
     {
-      "id": "speranza-108-1771315200000",
+      "id": "speranza-108-1771401600000",
       "eventType": "ELECTROMAGNETIC_STORM",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T08:00:00.000Z",
-      "endAt": "2026-02-17T09:00:00.000Z"
+      "startAt": "2026-02-18T08:00:00.000Z",
+      "endAt": "2026-02-18T09:00:00.000Z"
     },
     {
-      "id": "speranza-109-1771318800000",
+      "id": "speranza-109-1771405200000",
       "eventType": "ELECTROMAGNETIC_STORM",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T09:00:00.000Z",
-      "endAt": "2026-02-17T10:00:00.000Z"
+      "startAt": "2026-02-18T09:00:00.000Z",
+      "endAt": "2026-02-18T10:00:00.000Z"
     },
     {
-      "id": "speranza-110-1771318800000",
+      "id": "speranza-110-1771405200000",
       "eventType": "HUSK_GRAVEYARD",
       "map": "DAM",
-      "startAt": "2026-02-17T09:00:00.000Z",
-      "endAt": "2026-02-17T10:00:00.000Z"
+      "startAt": "2026-02-18T09:00:00.000Z",
+      "endAt": "2026-02-18T10:00:00.000Z"
     },
     {
-      "id": "speranza-111-1771318800000",
+      "id": "speranza-111-1771405200000",
       "eventType": "MATRIARCH",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T09:00:00.000Z",
-      "endAt": "2026-02-17T10:00:00.000Z"
+      "startAt": "2026-02-18T09:00:00.000Z",
+      "endAt": "2026-02-18T10:00:00.000Z"
     },
     {
-      "id": "speranza-112-1771322400000",
+      "id": "speranza-112-1771408800000",
       "eventType": "BIRD_CITY",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T10:00:00.000Z",
-      "endAt": "2026-02-17T11:00:00.000Z"
+      "startAt": "2026-02-18T10:00:00.000Z",
+      "endAt": "2026-02-18T11:00:00.000Z"
     },
     {
-      "id": "speranza-113-1771322400000",
+      "id": "speranza-113-1771408800000",
       "eventType": "MATRIARCH",
       "map": "DAM",
-      "startAt": "2026-02-17T10:00:00.000Z",
-      "endAt": "2026-02-17T11:00:00.000Z"
+      "startAt": "2026-02-18T10:00:00.000Z",
+      "endAt": "2026-02-18T11:00:00.000Z"
     },
     {
-      "id": "speranza-114-1771322400000",
+      "id": "speranza-114-1771408800000",
       "eventType": "NIGHT_RAID",
       "map": "DAM",
-      "startAt": "2026-02-17T10:00:00.000Z",
-      "endAt": "2026-02-17T11:00:00.000Z"
+      "startAt": "2026-02-18T10:00:00.000Z",
+      "endAt": "2026-02-18T11:00:00.000Z"
     },
     {
-      "id": "speranza-115-1771322400000",
+      "id": "speranza-115-1771408800000",
       "eventType": "NIGHT_RAID",
       "map": "STELLA_MONTIS",
-      "startAt": "2026-02-17T10:00:00.000Z",
-      "endAt": "2026-02-17T11:00:00.000Z"
+      "startAt": "2026-02-18T10:00:00.000Z",
+      "endAt": "2026-02-18T11:00:00.000Z"
     },
     {
-      "id": "speranza-116-1771326000000",
+      "id": "speranza-116-1771412400000",
       "eventType": "COLD_SNAP",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T11:00:00.000Z",
-      "endAt": "2026-02-17T12:00:00.000Z"
+      "startAt": "2026-02-18T11:00:00.000Z",
+      "endAt": "2026-02-18T12:00:00.000Z"
     },
     {
-      "id": "speranza-117-1771326000000",
+      "id": "speranza-117-1771412400000",
       "eventType": "HARVESTER",
       "map": "BLUE_GATE",
-      "startAt": "2026-02-17T11:00:00.000Z",
-      "endAt": "2026-02-17T12:00:00.000Z"
+      "startAt": "2026-02-18T11:00:00.000Z",
+      "endAt": "2026-02-18T12:00:00.000Z"
     },
     {
-      "id": "speranza-118-1771329600000",
+      "id": "speranza-118-1771416000000",
       "eventType": "PROSPECTING_PROBES",
       "map": "BURIED_CITY",
-      "startAt": "2026-02-17T12:00:00.000Z",
-      "endAt": "2026-02-17T13:00:00.000Z"
+      "startAt": "2026-02-18T12:00:00.000Z",
+      "endAt": "2026-02-18T13:00:00.000Z"
     },
     {
-      "id": "speranza-119-1771329600000",
+      "id": "speranza-119-1771416000000",
       "eventType": "HARVESTER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T12:00:00.000Z",
-      "endAt": "2026-02-17T13:00:00.000Z"
+      "startAt": "2026-02-18T12:00:00.000Z",
+      "endAt": "2026-02-18T13:00:00.000Z"
     },
     {
-      "id": "speranza-120-1771329600000",
+      "id": "speranza-120-1771416000000",
       "eventType": "HIDDEN_BUNKER",
       "map": "SPACEPORT",
-      "startAt": "2026-02-17T12:00:00.000Z",
-      "endAt": "2026-02-17T13:00:00.000Z"
+      "startAt": "2026-02-18T12:00:00.000Z",
+      "endAt": "2026-02-18T13:00:00.000Z"
     }
   ]
 }
