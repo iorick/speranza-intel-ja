@@ -1,14 +1,23 @@
 {
-  "lastRunJst": "2026-02-17T07:59:00+09:00",
+  "lastRunJst": "2026-02-17T13:59:00+09:00",
   "cooldownHours": 24,
   "notified": {},
   "deferred": {
     "onepiece-op13-box|aliexpress": {
-      "checkedAtJst": "2026-02-17T07:59:00+09:00",
+      "checkedAtJst": "2026-02-17T13:59:00+09:00",
       "reason": "クーポン情報不明かつゲーム機カテゴリ外のため保留",
       "rudeyaPrice": 13800,
       "buyPrice": 4860,
       "estimatedProfit": 8940
     }
+  },
+  "lastCheck": {
+    "result": "no-hit",
+    "notes": [
+      "Rudeya本体ドメイン(rudeya.com)は今回も名前解決不可で直接取得不可",
+      "PS5 CFI-2000A01: Yahoo新品最安81,500円、AliExpress最安77,293円で、既知Rudeya 75,200円比では通常利益/1%込みともに2,000円未満",
+      "PS Portal CFIJ-18001: Yahoo新品最安33,613円で、既知Rudeya 29,100円比は逆ザヤ",
+      "クーポン情報源(X)は匿名取得時に表示不可で期限確認不能"
+    ]
   }
 }
