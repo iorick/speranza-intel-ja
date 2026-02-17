@@ -1,5 +1,5 @@
 {
-  "lastRunJst": "2026-02-17T19:59:00+09:00",
+  "lastRunJst": "2026-02-17T21:59:00+09:00",
   "cooldownHours": 24,
   "notified": {},
   "deferred": {
@@ -15,9 +15,9 @@
     "result": "no-hit",
     "notes": [
       "Rudeya本体ドメイン(rudeya.com)は今回も名前解決不可で直接取得不可",
-      "PS5 CFI-2000A01: Yahoo新品上位83,500円、AliExpress上位75,605円/77,293円（円表示）で、既知Rudeya 75,200円比では通常利益/1%込みともに2,000円未達",
-      "PS Portal CFIJ-18001: Yahoo新品上位34,200円、AliExpress上位36,288円で、既知Rudeya 29,100円比は逆ザヤ",
-      "クーポン情報源(Xシード)の拡張探索はBrave APIキー未設定でweb_search不可。未ログイン閲覧でも期限確認不能"
+      "PS5 CFI-2000A01: Yahoo新品上位82,980円、AliExpress上位75,605円/77,293円（円表示）で、既知Rudeya 75,200円比では通常利益/1%込みともに2,000円未達",
+      "PS Portal CFIJ-18001: Yahoo新品上位34,179円、AliExpress上位36,288円で、既知Rudeya 29,100円比は逆ザヤ",
+      "クーポン情報源(Xシード)の拡張探索はBrave APIキー未設定でweb_search不可。X未ログイン閲覧でも期限確認不能"
     ]
   }
 }
